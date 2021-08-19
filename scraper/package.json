@@ -1,0 +1,32 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rconjoe/moscrape.git"
+  },
+  "author": "https://rconjoe.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rconjoe/moscrape/issues"
+  },
+  "homepage": "https://github.com/rconjoe/moscrape#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "cheerio": "*",
+    "got": "^11.8.2"
+  },
+  "volta": {
+    "node": "14.17.5"
+  }
+}
